@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background: lightblue;
+  }
+  
+  #description {
+    font-style: italic;
+    margin-top: 0;
+    font-size: 1.3rem
+  }
+  
+  form {
+    max-width: 1020px;
+    margin: 0 auto;
+    background: blue;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-top: 3rem
+  }
+  
+  label {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 1rem;
+    /* display: flex;
+    flex-direction: column; */
+  }
+  
+  input, select {
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 6px;
+  }
+  input > #radio {
+    font-size: 5rem;
+    color: white;
+  }
+  
+  textarea {
+    border-radius: 8px;
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem;
+  }
+  
+  input[type=submit] {
+    background: green;
+    color: white;
+    margin-top: 2rem;
+  }
