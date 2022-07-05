@@ -1,77 +1,36 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <title>freeCodeCamp Survey Form</title>
-    <link rel="stylesheet" href="styles.css" >
-  </head>
-  <body>
-    <div><h1 id="title">freeCodeCamp Survey Form</h1></div>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <main id="main">
+    <h1 id="title">Dr. Norman Borlang</h1>
+    <p>The man who saved a billion lives</p>
+  
+    <div id="img-div">
+      <img id="image" src="https://borlaug100.org/wp-content/uploads/sites/3/images/slideshow/slide-1.jpg" alt="" />
+      <figcaption id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</figcaption>
+    </div>
+  
 
-<form id="survey-form">
-  <label for="name" id="name-label">Name</label>
-<input type="text" id="name" required
-placeholder="Enter your name"
-/> <br>
-<label for="email" id="email-label">Email</label>
-<input type="email" id="email" required
-placeholder="Enter your email"
-/> <br>
-<label for="number" id="number-label">Age(optional)</label>
-<input type="number"  id="number"
-placeholder="Enter your Age" min=1 max=100
-/> <br>
-<label>Which option best describes your current role?
-</label>
-<select id="dropdown">
-  <option>Select current role</option>
-  <option>Student</option>
-  <option>Full time job</option>
-  <option>Full time Learner</option>
-   <option>Perefer not to say</option>
-    <option>other</option>
+  <div id="tribute-info">
+    <h2>Here's a time line of Dr. Borlaug's life:</h2>
+    <ul>
+      <li>1914 - Born in Cresco, Iowa</li>
+      <li>1933 - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
+      <li>1935 - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
+      <li>1937 - Finishes university and takes a job in the US Forestry Service</li>
 
-</select>
-
-<label>Would you recommend freeCodeCamp to a friend?</label> <br>
-<input type="radio" name="radio" checked value="Definitely">Definitely
-<input type="radio" name="radio" value="maybe">Maybe
-<input type="radio" name="radio"
-value="notsure"
->Not Sure
-<br>
-<label>What is your favorite feature of freeCodeCamp?</label> <br>
-
-<select>
-  <option>Select an option</option>
-  <option>challenges</option>
-  <option>projects</option>
-  <option>community</option>
-   <option>Perefer not to say</option>
-    <option>open source</option>
-</select>
-<br>
-<label>What would you like to see improved? (Check all that apply)</label>
-<br>
-<input type="checkbox" value="Front-end Projects"/>Front-end Projects <br>
-<input type="checkbox" value="Back-end Projects"/>Back-end Projects <br>
-<input type="checkbox" value="Data Visualization"/>Data Visualizations <br>
-<input type="checkbox" value="Challenges"/>Challenges <br>
-<input type="checkbox" value="Open Source Community"/>Open Source Community<br>
-<input type="checkbox" value="Gitter help rooms"/>Gitter help rooms<br>
-<input type="checkbox" value="Open Source Community"/>Open Source Community<br>
-<input type="checkbox" value="Videos"/>Videos<br>
-<input type="checkbox" value="Open Source Community"/>Open Source Community<br>
-<input type="checkbox" value="City Meetups"/>City Meetups<br>
-<input type="checkbox" value="Wiki"/>Wiki<br>
-<input type="checkbox" value="Forum"/>Forum<br>
-<input type="checkbox" value="Additional Courses"/>Additional Courses<br>
-
-<label>Any comments or suggestions?</label> <br>
-<textarea>
-</textarea>
-<input type="submit" id="submit" value="submit"/>
-</form>
-
-    </body>
-  </html>
+    </ul>
+    <span>If you have time, you should read more about this incredible human being on his<a href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank" id="tribute-link">Wikipedia entry.</a></span>
+  </div>
+  </main>
+  
+</body>
+</html>
